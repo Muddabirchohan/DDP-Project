@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>submition</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+	body{
+		background-image: url("45.jpg");
+
+background-attachment: fixed;
+
+
+	}
+		input{
+			display: block;
+			margin: 10px;
+			padding: 5px;
+			padding-right: 120px;
+			size: 45px;
+			border-radius: 10px;
+			border-color: rgba(0,0,0,0.1);
+			padding-top: 15px;
+			text-decoration: none;
+		}
+		h1{
+			margin-left: 470px;
+			font-size: 52px;
+			color: white;
+			font-weight: bolder
+		}
+
+select,option{
+display: inline;
+margin: 0px;
+
+
+padding-right: 130px;
+size: 45px;
+border-radius: 10px;
+border-color: rgba(0,0,0,0.5);
+padding-top: 15px;
+
+}
+.one{
+	padding-left: 140px;
+}
+form{
+	background-color: rgba(255,255,255,0.2);
+
+
+	margin-left: 400px;
+	margin-right: 400px;
+	padding-left: 120px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	border-radius: 10%;
+}
+p{
+	color: white;
+	font-family: serif;
+	font-size: 20px;
+	letter-spacing: 5px;
+	
+}
+label{
+	color: white;
+	font-family: serif;
+	font-size: 20px;
+	letter-spacing: 5px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(229,170,6);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 40px;
+
+    text-decoration: none;
+}
+li a:hover{
+	background-color: black;
+	color: yellow;
+	border-radius: 5%;
+	text-decoration: none;}
+
+	</style>
+
+
+
+</head>
+<body>
+<ul>
+        <li>    <a href="index1.html">Home</a></li>
+		<li><a href="index1.html">About</a></li>
+		<li><a href="index1.html">Food Gallery</a></li>
+		<li><a href="index1.html">Services</a></li>
+		<li><a href="index1.html">Contact</a></li>
+		<li><a href="index1.html">Events</a></li>
+		<li><a href="create.html">Create order</a></li>
+		<li><a href="diagram.html">Diagrams</a></li>
+	</ul>
+<h1>SUBMIT ORDER</h1>
+<form>
+<label for="name">Name</label>
+	<input type="text" name="name" required="required" placeholder="enter your name">
+	<p>Enter quantity</p>
+<select name="quantity" required="required" class="one">
+	<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+
+</select>
+<p>Select Area</p>
+<select name="area" required="required">
+	<option value="1">North karachi,Sec#9</option>
+<option value="2">North karachi,Sec#8</option>
+<option value="3">North karachi,Sec#7</option>
+<option value="3">North Nazimabad Block#L</option>
+<option value="3">North Nazimabad Block#H</option>
+<option value="3">North Nazimabad Block#A</option>
+<option value="3">North Nazimabad Block#T</option>
+
+</select><br><br>
+<label for="address" >Enter address</label>
+<input type="text" name="address" required="required" placeholder="enter your full address">
+<label for="email">Enter email</label>
+<input type="email" name="email" required="required" placeholder="enter your email address">
+<label for="number">Enter mobile no.</label>
+<input type="text" name="number" placeholder="enter your mobile number">
+<button type="button" class="btn btn-warning ">Submit</button>
+</form>
+</body>
+</html>
